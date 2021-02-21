@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="ShapeAppearanceOverlay.App.CornerSize10Percent" parent="">
+        <item name="cornerSize">10%</item>
+    </style>
+
+    <!-- Toolbar -->
+    <style name="MyToolbar" parent="Widget.MaterialComponents.Toolbar">
+        <item name="titleTextAppearance">@style/My_TextAppearance_Toolbar</item>
+        <item name="subtitleTextAppearance">@style/My_TextAppearance_Toolbar2</item>
+    </style>
+
+    <style name="My_TextAppearance_Toolbar" parent="@style/TextAppearance.AppCompat.Medium">
+        <item name="android:textStyle">bold|normal</item>
+    </style>
+
+    <style name="My_TextAppearance_Toolbar2" parent="@style/TextAppearance.AppCompat.Medium">
+        <item name="android:textStyle">bold</item>
+    </style>
+
+
+
+</resources>
